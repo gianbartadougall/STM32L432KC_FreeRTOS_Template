@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "STM32L4",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/FreeRTOS/Source/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "STM32L432xx",
+                "USE_HAL_DRIVER"
+            ],
+            "intelliSenseMode": "windows-clang-arm64",
+            "compilerPath": "${env:ARMGCC_DIR}/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu-cortex-m4"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
